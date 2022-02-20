@@ -1,0 +1,46 @@
+﻿.bg-img
+{
+    background-image: url("img/backgroundimg.jpg");
+    min-height: 790px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.m1
+{
+    margin-top:150px;
+}
+.select1
+{
+    width:300px;
+    height:33px;
+    text-align:center;
+}
+.select2
+{
+    margin-left:60px;
+    margin-top:20px;
+}
+.btn
+{
+    background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+
+.container-fluid{
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 0px;
+}

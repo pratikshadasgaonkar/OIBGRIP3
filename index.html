@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Oasis Infobyte Task3</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <script src="js/jquery-3-4-0.min.js"></script>
+    <script src="js/popper-1-14-7.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <link href="index.css" rel="stylesheet" />
+    <script src="index.js"></script>
+    <script src="demo.js"></script>
+</head>
+<body>
+    <div class="container-fluid">
+        <br />
+        <div class="bg-img">
+            <div class="row">
+                <div class="col-md-12">
+                    <p style="text-align: center; font-size: 60px;"><b>TEMPERATURE CONVERTER</b></p>
+                  <center>  <h2>Oasis Infobyte</h2>
+                    <h2>Task-3</h2></center>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3"></div>
+                <div class="col-md-5">
+
+                    <div class="card" style="background-color: rgba(128, 128, 128,0.5);  margin-top: 100px;" onsubmit="contemp();">
+
+                        <div class="card-header">
+
+                            <h2 class="text-center text-white">Convert Fahrenheit to Celsius
+                            </h2>
+                            <div class="card-body">
+                                <h5 class="select2">Fahrenheit</h5>
+                                <input id="inputFahrenheit" type="number" style="width: 400px;" class="select2" oninput="temperatureConverter(this.value)" onchange="temperatureConverter(this.value)" />
+                                <h5 class="select2">Celsius: <span id="outputKelvin"></span></h5>
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+</html>
